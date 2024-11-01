@@ -1,0 +1,19 @@
+import java.awt.print.Printable;
+import java.util.Scanner;
+
+
+public class Main {
+  public static void main(String[] args) {
+     //#1
+    Scanner scanner = new Scanner(System.in);  // Scannerオブジェクトを作成
+    int value = scanner.nextInt();
+    if(value>=10){
+      System.out.println("over or equal to 10"); 
+    }
+    else System.out.println("less than to");
+    
+   
+  
+  
+  }
+}
